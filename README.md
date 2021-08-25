@@ -17,9 +17,25 @@ This is a very simple static HTML side showing the VMworld content and some addi
 
 ### Build the App
 
+We use the docker daemon to build the container and run it afterwards.
 
+```bash
+docker build . -t your-docker-hub-account/vmworld:1.0
+```
 
 ### Use the App
+
+We run the container localy and exposite to the local port ```5000```:
+
+```bash
+docker run -d -p 5000:80 --rm --name vmworld your-docker-hub-account/vmworld:1.0
+```
+
+If you just want to test it without building it. We got you covered as well: 
+
+```bash
+docker run -d -p 5000:80 --rm --name vmworld ghcr.io/devulrix/vmworld:1.0
+```
 
 ## Deployment
 
