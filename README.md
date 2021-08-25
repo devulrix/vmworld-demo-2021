@@ -9,11 +9,17 @@ The talk consists of two parts:
 
 ## The App
 
-This is a very simple static HTML side showing the VMworld content and some additional links with more information around the topics. If you would like to learn more about containers follow these links: 
+This is a very simple static HTML side showing the VMworld content and some additional links with more information around the topics. The site is based on [HTML5 UP](https://html5up.net/). If you would like to learn more about containers follow these links:
 
 * [Containers 101](https://kube.academy/courses/containers-101)
 * [Building Applications for Kubernetes](https://kube.academy/courses/building-applications-for-kubernetes)
 * [Building Images](https://kube.academy/courses/building-images)
+
+### Build the App
+
+
+
+### Use the App
 
 ## Deployment
 
@@ -21,3 +27,14 @@ We're using a simple deployment file to start the application in our Kubernetes 
 
 * [Helm 101](https://kube.academy/courses/helm-101)
 * [Carvel on the Tanzu Developer Portal](https://tanzu.vmware.com/developer/guides/kubernetes/carvel/)
+
+### Run the App
+
+## Credit
+
+Here are the sources for the HTML and images used in the app: 
+
+* [HTML5 UP](https://html5up.net/)
+* Photo by [Cameron Venti](https://unsplash.com/@ventiviews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/container?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* Photo by [ThisisEngineering RAEng](https://unsplash.com/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/code-female?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* Photo by [AbsolutVision](https://unsplash.com/@freegraphictoday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/post-it?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
