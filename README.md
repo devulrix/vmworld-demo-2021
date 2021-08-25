@@ -44,7 +44,12 @@ We're using a simple deployment file to start the application in our Kubernetes 
 * [Helm 101](https://kube.academy/courses/helm-101)
 * [Carvel on the Tanzu Developer Portal](https://tanzu.vmware.com/developer/guides/kubernetes/carvel/)
 
-### Run the App
+We have two files to match the steps in the Demo. First we create the deployment and afterwards we create the Load Balancer. If you want to use your own image, please update the deployment file to reference your image. The default setting is to pull the image from github.
+
+```bash
+kubectl apply -f deployment/01-vmworld-deployment.yaml
+kubectl apply -f deployment/02-vmworld-lb.yaml
+```
 
 ## Credit
 

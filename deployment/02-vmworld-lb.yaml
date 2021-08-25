@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: vmworld-app-ui
+  labels:
+    app: demo-app-ui
+    tier: frontend
+spec:
+  selector:
+    app: vmworld-app-ui
+    tier: frontend
+  type: LoadBalancer
+  ports:
+  - name: vmworld-app-ui
+    protocol: TCP
+    port: 80
+    targetPort: 80
